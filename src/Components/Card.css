@@ -1,0 +1,16 @@
+.card{
+    width: 300px;
+    max-height: 500px;
+    margin: 10px;
+    display: flex;
+    background-color: white ;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor:pointer;
+    word-wrap: break-word;
+}
+.card:hover{
+    background-color: white;
+    transition: 0.2s ease-in;
+    transform: scale(1.04);
+}
